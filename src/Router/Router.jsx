@@ -8,7 +8,7 @@ function Router () {
     <Routes>
       <Route path="/" element={<DomashkaDefaultButton />}/>
       <Route path="/2" element={<DomashkaAccordionButton />}/>
-      <Route path="/3" element={<DomashkaToggleButton />}/>
+      <Route path="/3" element={<DomashkaToggleButton userName="Stepan" userAge={25} />}/>
     </Routes>
   )
 }
