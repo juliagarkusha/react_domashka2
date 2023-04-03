@@ -7,7 +7,7 @@ function Router () {
   return(
     <Routes>
       <Route path="/" element={<DomashkaDefaultButton />}/>
-      <Route path="/2" element={<DomashkaAccordionButton />}/>
+      <Route path="/2" element={<DomashkaAccordionButton userName="Stepan" userAge={25}/>} />
       <Route path="/3" element={<DomashkaToggleButton />}/>
     </Routes>
   )
